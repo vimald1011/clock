@@ -16,7 +16,7 @@ body {
 
 .clockdigital {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     translate: -50%;
     width: 450px;
