@@ -16,8 +16,11 @@ function clock() {
     s = s < 10 ? "0" + s : s;
 
     document.getElementById("hourss").innerHTML = h;
+    document.getElementById("hourss").style.color = "#de3163";
     document.getElementById("minn").innerHTML = m;
+    document.getElementById("minn").style.color = "#3f37c9";
     document.getElementById("secc").innerHTML = s;
+    document.getElementById("secc").style.color = "#008000";
 }
 var inter = setInterval(clock, 1000);
 
